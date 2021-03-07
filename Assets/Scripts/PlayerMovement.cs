@@ -86,4 +86,9 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
+
+    void SomeRandomTestFunction()
+    {
+        Debug.Log("Woo test");
+    }
 }
