@@ -53,4 +53,9 @@ public class LookWithMouse : MonoBehaviour
 
         playerBody.Rotate(Vector3.up * mouseX);
     }
+
+    void SomeNewTestFunction()
+    {
+        // Do something cool here
+    }
 }
